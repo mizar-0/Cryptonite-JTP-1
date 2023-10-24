@@ -28,30 +28,38 @@ it was only required to use `find ./* -size 1033` to find the next password, eve
 ## Level 6=>7: 
 used `find` with options `-size` `-user` `-group` and `grep` to find files containing ‘password’
 z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S
+![L6](https://github.com/mizar-0/Cryptonite-JTP-1/blob/main/Images/L6-L7.A.png)
+![L6](https://github.com/mizar-0/Cryptonite-JTP-1/blob/main/Images/L6-L7.png)
 
 ## Level 7 => Level 8: 
 used `cat` to read data.txt, piped the output to `grep` to find the required word
 TESKZC0XvTetK0S9xNwm25STk5iWrBvP
+![L7](https://github.com/mizar-0/Cryptonite-JTP-1/blob/main/Images/L7-L8.png)
 
 ## Level 8 => 9:
 `uniq` filters only adjacent matching lines from the file. Hence, the lines need to be sorted before uniq is used.
 EN632PlfYiZbn3PhVK3XOGSlNInNE00t
+![L8](https://github.com/mizar-0/Cryptonite-JTP-1/blob/main/Images/L8-L9.png)
 
 ## Level9 => Level10:
 Used `strings` with `-e s` option to specify ASCII encoding and piped the o/p to `grep ==` . GREP stands for Global Regular Expressions Print.
 G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s
+![L9](https://github.com/mizar-0/Cryptonite-JTP-1/blob/main/Images/L9-L10.png)
 
 ## Level 10=> Level 11: 
 `<string> base64` can be used to encode string in base 64. The option `–decode` makes it possible to do the reverse.
 6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM
+![L10](https://github.com/mizar-0/Cryptonite-JTP-1/blob/main/Images/L10-L11.png)
 
 ## Level 11 => 12: 
 read man page for `tr`. Had to consult stackexchange to find the exact way to specify a rot13 cipher using `tr`. JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv
+![L11](https://github.com/mizar-0/Cryptonite-JTP-1/blob/main/Images/L11-L12.png)
 
 # Week 2
 
 ## Level 12 => 13: 
 wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw. Consulted walkthrough. Learnt to decompress compressed files. The required password was obtained after multiple decompressions using `tar`, `bunzip2`, `gunzip`. 
+![L12]()
 
 ## Level 13 => 14: 
 This level only requires us to obtain the private key to be used in the next level.
@@ -82,3 +90,4 @@ qT1EvQKBgQDKm8ws2ByvSUVs9GjTilCajFqLJ0eVYzRPaY6f++Gv/UVfAPV4c+S0
 kAWpXbv5tbkkzbS0eaLPTKgLzavXtQoTtKwrjpolHKIHUz6Wu+n4abfAIRFubOdN
 /+aLoRQ0yBDRbdXMsZN/jvY44eM+xRLdRVyMmdPtP8belRi2E2aEzA==
 -----END RSA PRIVATE KEY-----
+![L13](https://github.com/mizar-0/Cryptonite-JTP-1/blob/main/Images/L13-L14.png)

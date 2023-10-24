@@ -59,7 +59,8 @@ read man page for `tr`. Had to consult stackexchange to find the exact way to sp
 
 ## Level 12 => 13: 
 wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw. Consulted walkthrough. Learnt to decompress compressed files. The required password was obtained after multiple decompressions using `tar`, `bunzip2`, `gunzip`. 
-![L12]()
+![L4-L5](https://github.com/mizar-0/Cryptonite-JTP-1/assets/76529146/e33a0935-e4e8-45dc-a474-1ecb7d167c37)
+
 
 ## Level 13 => 14: 
 This level only requires us to obtain the private key to be used in the next level.

@@ -79,6 +79,7 @@ G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s
 ## Level 11 => 12: 
 read man page for `tr`. Had to consult stackexchange to find the exact way to specify a rot13 cipher using `tr`. JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv
 
+# Week 2
 ## Level 12 => 13: 
 wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw. Consulted walkthrough. Learnt to decompress compressed files. The required password was obtained after multiple decompressions using `tar`, `bunzip2`, `gunzip`. 
 ## Level 13 => 14: 

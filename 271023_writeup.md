@@ -19,7 +19,8 @@ files can be hidden by preceding filename with `.`. Use `ls -a` to list all file
 
 ## Level 4 => 5: 
 used `file` command to determine type of all files. Used `./*` to specify all files. lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR
-<img src="https://github.com/mizar-0/Cryptonite-JTP-1/blob/main/Images/L4-L5.png" width="800" />
+
+![L4-L5](https://github.com/mizar-0/Cryptonite-JTP-1/assets/76529146/ca12ac5d-2522-42bc-8a95-1a9f1a32f6e4)
 
 ## Level 5=>6: 
 it was only required to use `find ./* -size 1033` to find the next password, even though the problem mentioned other requirements. P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU.
@@ -59,8 +60,6 @@ read man page for `tr`. Had to consult stackexchange to find the exact way to sp
 
 ## Level 12 => 13: 
 wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw. Consulted walkthrough. Learnt to decompress compressed files. The required password was obtained after multiple decompressions using `tar`, `bunzip2`, `gunzip`. 
-![L4-L5](https://github.com/mizar-0/Cryptonite-JTP-1/assets/76529146/e33a0935-e4e8-45dc-a474-1ecb7d167c37)
-
 
 ## Level 13 => 14: 
 This level only requires us to obtain the private key to be used in the next level.

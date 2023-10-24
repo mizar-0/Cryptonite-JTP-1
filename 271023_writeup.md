@@ -19,7 +19,7 @@ files can be hidden by preceding filename with `.`. Use `ls -a` to list all file
 
 ## Level 4 => 5: 
 used `file` command to determine type of all files. Used `./*` to specify all files. lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR
-(img src="https://github.com/mizar-0/Cryptonite-JTP-1/blob/main/Images/L4-L5.png")
+<img src="https://github.com/mizar-0/Cryptonite-JTP-1/blob/main/Images/L4-L5.png" />
 
 ## Level 5=>6: 
 it was only required to use `find ./* -size 1033` to find the next password, even though the problem mentioned other requirements. P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU.

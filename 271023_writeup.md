@@ -4,87 +4,57 @@ Had to enable WSL in Control Panel>Programmes>Turn windows features on and off
 
 ## Level 0:
 learnt to use `ssh` command to log into remote server
+
 ## Level 0 => 1: 
 learnt `cat` command. Tried logging into bandit1 from bandit0. Request was blocked. Solved by exiting bandit0 and logging in from own computer.
+
 ## Level 1 => 2: 
 `-` is a special character because it is used to specify tags. Hence, path must be specified for file names starting with `-`.
+
 ## Level 2 =>3: 
 used `‘’` to specify that filename with spaces was one filename and not many
+
 ## Level 3 => 4: 
 files can be hidden by preceding filename with `.`. Use `ls -a` to list all files of directory.
+
 ## Level 4 => 5: 
 used `file` command to determine type of all files. Used `./*` to specify all files. lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR
 ![L4](https://github.com/mizar-0/Cryptonite-JTP-1/blob/main/Images/L4-L5.png)
+
 ## Level 5=>6: 
 it was only required to use `find ./* -size 1033` to find the next password, even though the problem mentioned other requirements. P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU.
+![L5](Images/L5-L6.png)
 
 ## Level 6=>7: 
 used `find` with options `-size` `-user` `-group` and `grep` to find files containing ‘password’
 z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S
 
-
-
 ## Level 7 => Level 8: 
 used `cat` to read data.txt, piped the output to `grep` to find the required word
 TESKZC0XvTetK0S9xNwm25STk5iWrBvP
-
-
-
-
-
-
-
 
 ## Level 8 => 9:
 `uniq` filters only adjacent matching lines from the file. Hence, the lines need to be sorted before uniq is used.
 EN632PlfYiZbn3PhVK3XOGSlNInNE00t
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Level9 => Level10:
 Used `strings` with `-e s` option to specify ASCII encoding and piped the o/p to `grep ==` . GREP stands for Global Regular Expressions Print.
 G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s
-
-
-
-
-
-
-
-
 
 ## Level 10=> Level 11: 
 `<string> base64` can be used to encode string in base 64. The option `–decode` makes it possible to do the reverse.
 6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM
 
-
 ## Level 11 => 12: 
 read man page for `tr`. Had to consult stackexchange to find the exact way to specify a rot13 cipher using `tr`. JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv
 
 # Week 2
+
 ## Level 12 => 13: 
 wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw. Consulted walkthrough. Learnt to decompress compressed files. The required password was obtained after multiple decompressions using `tar`, `bunzip2`, `gunzip`. 
+
 ## Level 13 => 14: 
-
-
+This level only requires us to obtain the private key to be used in the next level.
 -----BEGIN RSA PRIVATE KEY-----
 MIIEpAIBAAKCAQEAxkkOE83W2cOT7IWhFc9aPaaQmQDdgzuXCv+ppZHa++buSkN+
 gg0tcr7Fw8NLGa5+Uzec2rEg0WmeevB13AIoYp0MZyETq46t+jk9puNwZwIt9XgB

@@ -79,7 +79,12 @@ Using the provided ssh private key, bandit14 can be logged into. (pw: fGrHPx402x
 
 ![L13-L14](https://github.com/mizar-0/Cryptonite-JTP-1/assets/76529146/ec9e2bd2-9553-4cfa-9219-48aaab3f8417)
 
-##Level 14 => 15:
+## Level 14 => 15:
+Attempted to establish an `ssh` connection. Failed. On closer inspection, question does not mention anything about `ssh`. Explored other commands and tried to connect. Finally had success using `telnet` and `nc`.
+
+![L14-L15](https://github.com/mizar-0/Cryptonite-JTP-1/assets/76529146/20bb3ec6-f0c0-4202-a151-0801e1add563)
+
+![L14-15A](https://github.com/mizar-0/Cryptonite-JTP-1/assets/76529146/7ff9abe5-1aed-490c-b213-b43a1f8fce20)
 
 
 

@@ -20,53 +20,60 @@ files can be hidden by preceding filename with `.`. Use `ls -a` to list all file
 ## Level 4 => 5: 
 used `file` command to determine type of all files. Used `./*` to specify all files. lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR
 
-![L4-L5](https://github.com/mizar-0/Cryptonite-JTP-1/assets/76529146/ca12ac5d-2522-42bc-8a95-1a9f1a32f6e4)
+![L4-L5](https://github.com/mizar-0/Cryptonite-JTP-1/assets/76529146/d2dab941-5b6c-47ca-a9b2-4602c5183a3d)
+
 
 ## Level 5=>6: 
 it was only required to use `find ./* -size 1033` to find the next password, even though the problem mentioned other requirements. P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU.
 
-![L5-L6](https://github.com/mizar-0/Cryptonite-JTP-1/assets/76529146/8882669c-f208-4efe-825a-35fe861547f2)
+![L5-L6](https://github.com/mizar-0/Cryptonite-JTP-1/assets/76529146/e1145df8-6983-487e-b51c-8554515426f9)
+
 
 ## Level 6=>7: 
 used `find` with options `-size` `-user` `-group` and `grep` to find files containing ‘password’
 z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S
 
-![L6-L7 A](https://github.com/mizar-0/Cryptonite-JTP-1/assets/76529146/c4c0f305-3df1-45c3-801b-6e98bbc1e6c7)
+![L6-L7 A](https://github.com/mizar-0/Cryptonite-JTP-1/assets/76529146/bac2339b-38a8-4523-adef-b9bec537c23d)
 
-![L6-L7](https://github.com/mizar-0/Cryptonite-JTP-1/assets/76529146/34338776-2fb8-4a71-aa52-f1583e55eea7)
+![L6-L7](https://github.com/mizar-0/Cryptonite-JTP-1/assets/76529146/d6455994-9133-4cd2-8267-fc7089e86645)
 
 ## Level 7 => Level 8: 
 used `cat` to read data.txt, piped the output to `grep` to find the required word
 TESKZC0XvTetK0S9xNwm25STk5iWrBvP
 
-![L7-L8](https://github.com/mizar-0/Cryptonite-JTP-1/assets/76529146/cda427b5-981b-4805-ac1a-ec8b5d6de774)
+![L7-L8](https://github.com/mizar-0/Cryptonite-JTP-1/assets/76529146/b871f31f-8ac9-4e40-bf46-f90183c6f152)
+
 
 
 ## Level 8 => 9:
 `uniq` filters only adjacent matching lines from the file. Hence, the lines need to be sorted before uniq is used.
 EN632PlfYiZbn3PhVK3XOGSlNInNE00t
 
-![L8-L9](https://github.com/mizar-0/Cryptonite-JTP-1/assets/76529146/2da5a083-067a-4c25-b562-9ef88eab2367)
+![L8-L9](https://github.com/mizar-0/Cryptonite-JTP-1/assets/76529146/9e520f3d-4618-40a2-ab95-b697191b63be)
+
 
 
 ## Level9 => Level10:
 Used `strings` with `-e s` option to specify ASCII encoding and piped the o/p to `grep ==` . GREP stands for Global Regular Expressions Print.
 G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s
 
-![L9-L10](https://github.com/mizar-0/Cryptonite-JTP-1/assets/76529146/042abead-540d-4f89-9bfc-04f692f51371)
+![L9-L10](https://github.com/mizar-0/Cryptonite-JTP-1/assets/76529146/4e7f5554-2a71-495a-8252-fa90950e945c)
+
 
 
 ## Level 10=> Level 11: 
 `<string> base64` can be used to encode string in base 64. The option `–decode` makes it possible to do the reverse.
 6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM
 
-![L10-L11](https://github.com/mizar-0/Cryptonite-JTP-1/assets/76529146/7f864612-1789-4364-8299-262425785c65)
+![L10-L11](https://github.com/mizar-0/Cryptonite-JTP-1/assets/76529146/b289c9b0-1aa0-4fac-a8bf-fc4a03889bb8)
+
 
 
 ## Level 11 => 12: 
 read man page for `tr`. Had to consult stackexchange to find the exact way to specify a rot13 cipher using `tr`. JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv
 
-![L11-L12](https://github.com/mizar-0/Cryptonite-JTP-1/assets/76529146/cc535df6-3c8b-4e62-95ec-6206bc87b972)
+![L11-L12](https://github.com/mizar-0/Cryptonite-JTP-1/assets/76529146/e30d2664-4d8c-44b0-83e9-9249c1fca05e)
+
 
 
 # Week 2
@@ -77,7 +84,8 @@ wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw. Consulted walkthrough. Learnt to decompress co
 ## Level 13 => 14: 
 Using the provided ssh private key, bandit14 can be logged into. (pw: fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq)
 
-![L13-L14](https://github.com/mizar-0/Cryptonite-JTP-1/assets/76529146/ec9e2bd2-9553-4cfa-9219-48aaab3f8417)
+![L13-L14](https://github.com/mizar-0/Cryptonite-JTP-1/assets/76529146/16acee7c-59dd-4f93-a539-13ef24c5d23e)
+
 
 ## Level 14 => 15:
 Attempted to establish an `ssh` connection. Failed. On closer inspection, question does not mention anything about `ssh`. Explored other commands and tried to connect. Finally had success using `telnet` and `nc`. (pw: jN2kgmIXJ6fShzhT2avhotn4Zcka6tnt)

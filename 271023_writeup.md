@@ -122,11 +122,16 @@ Changed the permissions to `600` which is the required mode for SSH Private Keys
 ![L16-17D](https://github.com/mizar-0/Cryptonite-JTP-1/assets/76529146/57bb5142-b43c-4985-a88a-795fc7c0648a)
 
 ## Level 17 => Level 18:
-used `diff` to find the required line. As writeen in the prompt, we get a byebye message.
+used `diff` to find the required line. As writeen in the prompt, we get a byebye message.(pw: )
 
 ![L17-L18](https://github.com/mizar-0/Cryptonite-JTP-1/assets/76529146/a98456a4-048e-4077-8841-583b5b285afe)
 
 ![L17-18B](https://github.com/mizar-0/Cryptonite-JTP-1/assets/76529146/354c545f-4236-4441-83c0-eb903f540d5b)
 
 ## Level 18 => Level 19
+Consulted walkthrough. `ssh` usually works by allocating a pseudoterminal on the remote server, which triggers the `.bashrc` file.
+It is given that `.bashrc` has been modified to close our ssh connection as soon as it is established. Therefore we run the commands `ls` and `cat` directly with the `ssh` command so the `.bashrc` file is not triggered. (pw: awhqfNnAbc1naukrpqDYcF95h7HoMTrC)
 
+![L18-L19](https://github.com/mizar-0/Cryptonite-JTP-1/assets/76529146/ab31f6cc-8073-4e0f-9dd5-c73adee163e5)
+
+## Level 19 => Level 20

@@ -135,3 +135,10 @@ It is given that `.bashrc` has been modified to close our ssh connection as soon
 ![L18-L19](https://github.com/mizar-0/Cryptonite-JTP-1/assets/76529146/ab31f6cc-8073-4e0f-9dd5-c73adee163e5)
 
 ## Level 19 => Level 20
+As seen below, the execution bit for the given binary has been replaced with an `s` which makes it a setuid binary. This means that running a command with this binary will elevate our privileges to the privileges of the owner for the command that follows. (pw: VxCazJaVykI6W36BkBU0mJTCM8rR95XT)
+
+![L19-L20](https://github.com/mizar-0/Cryptonite-JTP-1/assets/76529146/7cc00b35-aa7a-40ab-9d20-9b5a490769df)
+
+## Level 20 => Level 21
+
+

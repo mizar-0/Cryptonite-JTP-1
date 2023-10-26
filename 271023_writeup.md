@@ -104,3 +104,22 @@ Read the man pages for `openssl` and `s_client`. Used `-connect hostname:port`  
 ![L15-L16C](https://github.com/mizar-0/Cryptonite-JTP-1/assets/76529146/7a70e376-d6ef-42c2-bbb0-9b06f95880a7)
 
 ## Leve16 => Level 17:
+using `nmap -p 31000-32000 localhost -sV` to scan for open ports in the given range with `service` option, port 31790 was found to satisfy the given criteria.
+
+![L16-17A](https://github.com/mizar-0/Cryptonite-JTP-1/assets/76529146/e2ac9c34-3024-45fd-b5e9-55216d22b7bc)
+
+
+As required, current level pw was submitted to the prompt obtained from `openssl s_client -connect localhost:31790` which led to an RSA Private Key. 
+
+![L16-17B](https://github.com/mizar-0/Cryptonite-JTP-1/assets/76529146/63a218ee-631b-4854-a1a2-f81d9041aa8f)
+
+Saved the RSA private key. Tried to `ssh` into bandit17. Permissions 0644 too open error was thrown. 
+Changed the permissions to `600` which is the required mode for SSH Private Keys.
+`chmod 600 L17.private`
+
+![L16-17C](https://github.com/mizar-0/Cryptonite-JTP-1/assets/76529146/d1147bcd-72a7-4cc8-a45f-c94866d6c844)
+
+![L16-17D](https://github.com/mizar-0/Cryptonite-JTP-1/assets/76529146/57bb5142-b43c-4985-a88a-795fc7c0648a)
+
+## Level17 => 16:
+

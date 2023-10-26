@@ -95,7 +95,7 @@ Attempted to establish an `ssh` connection. Failed. On closer inspection, questi
 ![L14-15A](https://github.com/mizar-0/Cryptonite-JTP-1/assets/76529146/7ff9abe5-1aed-490c-b213-b43a1f8fce20)
 
 ## Level 15 => Level 16:
-Read the man pages for `openssl` and `s_client`. Used `-connect hostname:port`  option and entered password. 
+Read the man pages for `openssl` and `s_client`. Used `-connect hostname:port`  option and entered password. (pw: JQttfApK4SeyHwDlI9SXGR50qclOAil1)
 
 ![L15-L16A](https://github.com/mizar-0/Cryptonite-JTP-1/assets/76529146/671cc073-2628-4135-aa58-e8d08b68b0d5)
 

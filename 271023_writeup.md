@@ -70,7 +70,7 @@ G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s
 
 
 ## Level 11 => 12: 
-read man page for `tr`. Had to consult stackexchange to find the exact way to specify a rot13 cipher using `tr`. JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv
+read man page for `tr`. Had to consult stackexchange to find the exact way to implement a rot13 cipher using `tr`. JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv
 
 ![L11-L12](https://github.com/mizar-0/Cryptonite-JTP-1/assets/76529146/e30d2664-4d8c-44b0-83e9-9249c1fca05e)
 
@@ -146,5 +146,8 @@ Consulted walkthrough. In this level, we set up a server on one terminal by aski
 ![L20-21A](https://github.com/mizar-0/Cryptonite-JTP-1/assets/76529146/2a42943a-f96f-4d32-8b55-4b5600ceddd4)
 
 ![L20-21B](https://github.com/mizar-0/Cryptonite-JTP-1/assets/76529146/a137db97-fa90-479a-888a-1d56ad122b85)
+
+## Level 21 => Level 22
+
 
 

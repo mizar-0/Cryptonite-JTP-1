@@ -141,5 +141,10 @@ As seen below, the execution bit for the given binary has been replaced with an 
 ![L19-L20](https://github.com/mizar-0/Cryptonite-JTP-1/assets/76529146/7cc00b35-aa7a-40ab-9d20-9b5a490769df)
 
 ## Level 20 => Level 21
+Consulted walkthrough. In this level, we set up a server on one terminal by asking `nc` to listen on a random port.Then, using the binary file on another terminal,  we establish a connection with said port on localhost. Through the first terminal we send the pw for current level to suconnect which verifies and returns the next pw.(pw: NvEJF7oVjkddltPSrdKEFOllh9V1IBcq)
+
+![L20-21A](https://github.com/mizar-0/Cryptonite-JTP-1/assets/76529146/2a42943a-f96f-4d32-8b55-4b5600ceddd4)
+
+![L20-21B](https://github.com/mizar-0/Cryptonite-JTP-1/assets/76529146/a137db97-fa90-479a-888a-1d56ad122b85)
 
 

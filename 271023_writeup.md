@@ -148,6 +148,12 @@ Consulted walkthrough. In this level, we set up a server on one terminal by aski
 ![L20-21B](https://github.com/mizar-0/Cryptonite-JTP-1/assets/76529146/a137db97-fa90-479a-888a-1d56ad122b85)
 
 ## Level 21 => Level 22
+Changed directory to `/etc/cron.d`. Using `cat cronjob_bandit22` we find the command that is being executed at regular intervals of one second. Used `cat` first on the file that's being redirected to /dev/null, and then again on the filename so obtained to get the final password. (/dev/null is also called the blackhole of the linux filesystem because anything redirected here is lost forever)
 
+(pw: WdDozAdTM2z9DiFEQ2mGlwngMfj4EZff)
+![L21-22A](https://github.com/mizar-0/Cryptonite-JTP-1/assets/76529146/d533d284-b29c-48fc-a2ce-a536f2e12eb0)
+![L21-22B](https://github.com/mizar-0/Cryptonite-JTP-1/assets/76529146/22dadacc-98ed-458a-a145-d6e64dde7398)
+![L21-22C](https://github.com/mizar-0/Cryptonite-JTP-1/assets/76529146/26e08f8e-be94-4c1f-8b90-5d8d3013df4d)
+![L21-22D](https://github.com/mizar-0/Cryptonite-JTP-1/assets/76529146/e7a26b02-e5cd-4b4b-825c-26ec0edc3d26)
 
 

@@ -79,7 +79,11 @@ read man page for `tr`. Had to consult stackexchange to find the exact way to im
 # Week 2
 
 ## Level 12 => 13 
-wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw. Consulted walkthrough. Learnt to decompress compressed files. The required password was obtained after multiple decompressions using `tar`, `bunzip2`, `gunzip`. 
+Consulted walkthrough. Learnt to decompress compressed files. The required password was obtained after multiple decompressions using `tar`, `bunzip2`, `gunzip`. 
+`tar -xf` is used to extract files from a tar archive. (pw: wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw)
+![L12-13A](https://github.com/mizar-0/Cryptonite-JTP-1/assets/76529146/08728b47-74f2-403c-a6b6-2e76d929443f)
+![L12-13B](https://github.com/mizar-0/Cryptonite-JTP-1/assets/76529146/2fc9c0f3-3a32-41fe-a144-5924eb6fd8bb)
+![L12-13C](https://github.com/mizar-0/Cryptonite-JTP-1/assets/76529146/9fed0452-eb2e-4302-8955-97abac7885d8)
 
 ## Level 13 => 14
 Using the provided ssh private key, bandit14 can be logged into. (pw: fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq)
